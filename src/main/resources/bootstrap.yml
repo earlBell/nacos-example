@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  application:
+    # 指定名称,nacos要求（组成dataId）
+    name: demo
+  profiles:
+    active: dev
+

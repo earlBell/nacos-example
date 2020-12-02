@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        #一定要集成springboot-web才生效！！！
+        server-addr: localhost:8848
+        namespace: 3146d3eb-2422-4439-a063-a9a0df197c5e
+        group: GZ
+        username: nacos
+        password: nacos
+
