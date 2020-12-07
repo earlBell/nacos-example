@@ -35,6 +35,11 @@
             <version>${spring-cloud-alibaba.version}</version>
         </dependency>
         <dependency>
+            <groupId>com.purgeteam</groupId>
+            <artifactId>dynamic-config-spring-boot-starter</artifactId>
+            <version>0.1.0.RELEASE</version>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
